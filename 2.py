@@ -4,6 +4,7 @@ import requests
 from requests.exceptions import RequestException
 import re
 
+
 def get_one_page(url):
     try:
         response = requests.get(url)
